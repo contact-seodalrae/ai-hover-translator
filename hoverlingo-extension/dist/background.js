@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener(()=>{console.log("HoverLingo extension installed")});chrome.runtime.onMessage.addListener((e,t,n)=>{e.action==="translate"&&n({translated:"Mock translation"})});
